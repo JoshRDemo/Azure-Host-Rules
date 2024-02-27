@@ -1,5 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <TreatSpecificWarningsAsErrors />
+  </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="AutoMapper" version="1.1.0.118" />
+    <PackageReference Include="AutoMapper" Version="1.1.0.118" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources\Infrastructure.Errors.ErrorHandlingMiddleware.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Infrastructure.Errors.ErrorHandlingMiddleware.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Infrastructure.Errors.ErrorHandlingMiddleware.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Infrastructure.Errors.ErrorHandlingMiddleware.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
