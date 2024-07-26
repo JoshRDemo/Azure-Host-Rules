@@ -1,3 +1,13 @@
 {
-  "settingsInheritedFrom": "JoshRDemo/whitesource-config@main"
+  "settingsInheritedFrom": "JoshRDemo/whitesource-config@main",
+"hostRules": [
+    {
+      "matchHost": "https://pkgs.dev.azure.com/JoshMendSecondOrg/TestProject/_packaging/Nugettest/nuget/v3/index.json",
+      "hostType": "nuget",
+      "userName": "TestProject",
+      "encrypted": {
+        "token": "wcBMA8xOaBJvzJNbAQf/cT8DuLEd/jE67OFIegLrY4fic8xNMjawiE10pW9qlQracPHDBIvy72lOv2+a3w1OPWU15ajf67GLgU8EAAT4SKU5OHVK9vY0FSnCaDFR5IcznRzJE5Zfe4abpIoImdhqWR/1I/CzWnvw52gl/5CMmWaHj/9YPcoY4LqoWeWnqKymjn5Uw9DDmrttrwjQpFo50L57BVqnEJlVvTObJhhZCdZgZvSqf1CyxEdHvpBV7Qrkw0B3IIPBirsATNqiodImxi7SXh1XfDSRA72WtqRTKtZ/8q7ZzEhFaEhZqUhB89PXWOsBzXTC8Nbk1EhJzibM0ifZBLEEF+ESDSzBUK+Rq9KGAcMPGh6+V6cY5QVa20zgLen6gwliTzhgFN4Re0VGph0L1m1C7YaszVDolEksLAtYSG/sLV46ZYCrgLkmZPBWN4A6yTa+yhgI3gmDmxU5lopO2ntKQb8u8/dgfRVuZAnCcILXgBEG3ylx3cUEpHAAoVBjF9CKna00OQtdkRtobHDlUvbDHD4"
+      }
+    }
+  ]
 }
