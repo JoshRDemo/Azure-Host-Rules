@@ -8,6 +8,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="1.1.0.118" />
+    <PackageReference Include="SlowCheetah" Version="2.5.48" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Resources\Infrastructure.Errors.ErrorHandlingMiddleware.Designer.cs">
